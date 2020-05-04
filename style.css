@@ -1,0 +1,100 @@
+
+body {
+    background-color: lightgray;
+    
+}
+
+img {
+    width: 800px;
+    height: 500px;
+    display: flex;
+   }
+
+.gray-container {
+    width: 800px;
+    height: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgba(0, 0, 0, 0.5);
+    position: absolute;
+
+}
+
+.white-container{
+    display: flex;
+    width: 1000px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 30px;
+    box-shadow: 0px 0px 20px grey;
+    
+}
+
+h1 {
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+p {
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.left-container {
+    width: 100px;
+    background-image: url(http://stayathome-syllabus.greenfox.academy/week03/assets/arrow.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.right-container {
+    width: 100px;
+    background-image: url(http://stayathome-syllabus.greenfox.academy/week03/assets/arrow.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(0.5turn);
+}
+
+.main-container {
+    display: flex;
+    align-items: flex-end;
+}
+
+#container {
+    display: flex; 
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 30px;
+    justify-content: center;
+  }
+  
+.thumbnail {
+    
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    box-shadow: 0px 0px 20px grey;
+    position: relative;
+    background-image: none;
+    background-position: center;
+    background-size: cover;  
+  }
+
+.hiddenTitle {
+    display: none;
+    position: relative;
+    background: black;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    top: -40px;
+    text-align: center;
+  }
+
+.thumbnail:hover .hiddenTitle {
+    display: block;
+  }
